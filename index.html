@@ -8,14 +8,112 @@
     <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5b1eeceadd.js" crossorigin="anonymous"></script>
     <title>Online-electronic-shop</title>
   </head>
 
   <body>
-    <h1>Online-electronic-shop</h1>
 
-    <!-- Optional JavaScript -->
+<!--header section-->
+
+<header class="header">
+
+<!--Navigation bar-->
+
+<div class="navcont eclipse-bg text-light">
+<nav class="nav flex py-2">
+
+<div class="navlogo flex">
+  <i class="fab fa-shopify cabaret-color fa-2x mr-3 n-logo"></i>
+  <h3 class="lato text-light logo-heading">Super electronics</h3>
+</div>
+
+<ul class="nav-list flex list-unstyled pt-1">
+  <li class="mr-5"><a href="#" class="cabaret-color nav-link"><i class="fas fa-home mr-1"></i>Home</a></li>
+  <li class="mr-5"><a href="#" class="defgrey nav-link"><i class="fas fa-clipboard-list mr-1"></i>Collections</a></li>
+  <li><a href="" class="defgrey nav-link"><i class="fas fa-shopping-cart mr-1"></i>Purchase List</a></li>
+</ul>
+
+<button class="post-add cabaret-bg text-white">Post an ad</button>
+
+<div class="user-items flex">
+<i class="fas fa-envelope-open-text mr-4 defgrey"></i>
+<h5 class="lato user-one mr-4 defgrey">User One</h5>
+<i class="fas fa-user-circle fa-2x defgrey user"></i>
+</div>
+
+</nav>
+</div>
+
+</header>
+
+<!--End of header-->
+
+<!--start of display and search section-->
+
+<section class="display flex2">
+
+<h1 class="lato text-white d-head">Super Electronics</h1>
+<h3 class="catamaran text-white mt-3 d-body">Best gadets, best value, excellent service</h3>
+<div class="inputcont text-center mt-4">
+<select class="select w-25 input-item" name="select">
+  <option value="Desktop">Desktops</option>
+  <option value="Laptops">Laptops</option>
+  <option value="Smartphones">Smartphones</option>
+  <option value="smartwatches">Smartwatches</option>
+    <option value="others">Other Products</option>
+</select>
+<input type="text" placeholder="What do you search for?" class="lato w-25 input-item">
+<input type="text" placeholder="Where?" class="lato w-25 input-item">
+<button class="searchbtn eclipse-bg text-white px-3">Search</button>
+</div>
+</section>
+
+<!--end of display and search section-->
+
+<!--start of img-carousell-1-->
+
+<section class="img-carousell-1">
+
+
+<h3 class="lato">Hot Ads</h3>
+<div class="carousell-cont">
+
+<div class="carousell-item">
+
+<div class="img-item">
+<img src="images/samsung-1.jpg" alt="samsung" class="d-img">
+</div>
+
+<div class="text-item">
+  <h2 class="text-title">Samsung Note galaxy tab</h2>
+  <p class="text-justify text-body catamaran">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, cum quisquam, praesentium illo itaque impedit aut voluptatibus, delectus atque temporibus nobis, eveniet dignissimos blanditiis eaque eos officia similique provident magnam a explicabo sunt placeat ipsum. Harum adipisci pariatur, error praesentium.</p>
+  <h4 class="lato">From:Jhon Doe</h4>
+  <h4 class="lato">Location: Helsinki</h4>
+  <button class="price">750$</button><button class="detail">Purchase Details</button>
+</div>
+
+
+</div>
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
