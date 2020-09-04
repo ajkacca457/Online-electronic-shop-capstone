@@ -1,4 +1,7 @@
 /*All re-used classes*/
+body {
+    background-color:#888;
+}
 
 .lato {
   font-family: 'Lato', sans-serif;
@@ -22,17 +25,36 @@
 .defgrey {
   color: #888;
 }
+.defgrey-bg {
+  color: #888;
+}
+
+.opacity {
+  opacity:.9;
+}
 
 .flex {
   display: flex;
-  align-items:center;
-  justify-content: space-between;
 }
-.flex2 {
-  display: flex;
+
+.align-1 {
+  justify-content: space-between;
   align-items:center;
+}
+
+.align-2 {
   justify-content: center;
+  align-items:center;
   flex-direction: column;
+}
+.align-3 {
+  justify-content: center;
+  align-items:center;
+}
+
+.align-4 {
+  align-items:flex-start;
+  justify-content: center;
 }
 
 
@@ -46,6 +68,7 @@
   position: fixed;
   top:0;
   width: 100%;
+  z-index: 100;
 }
 
 .nav {
@@ -127,4 +150,106 @@
   text-transform: capitalize;
 }
 
-/*Styling for navbar*/
+/*Styling for hot ads*/
+
+.sec-title h3{
+  width: 10%;
+  font-size: 100%;
+}
+
+.d-img{
+  width: 300px;
+  height: 300px;
+}
+.width-70 {
+  width: 70%;
+  margin: auto;
+}
+.t-des {
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.price,.detail {
+  border: none;
+  height: 35px;
+}
+
+.price{
+  border-right:2px solid rgba(69, 69, 69, 0.78);
+  border-radius: 5px 0 0 5px;
+}
+.detail {
+  border-radius: 0 5px 5px 0;
+}
+
+/*Styling for desktop-items*/
+
+.desktop {
+  width: 100px;
+  height: 100px;
+}
+.desktop-sec {
+  border-bottom: 1px solid rgba(61, 61, 61, 0.15);
+}
+
+.desktop-cont {
+  width: 80%;
+}
+
+.desk-title {
+  font-size:100%;
+  font-weight: bold;
+}
+
+.similar-item {
+  flex:1;
+  margin:10px;
+  border: 1px solid rgba(61, 61, 61, 0.27);
+  border-radius: 5px;
+}
+
+.type {
+  font-size: 90%;
+}
+
+.item-price {
+  font-weight: bold;
+}
+
+.sec-head {
+  font-size: 120%;
+}
+.sec-body {
+  font-size: 100%;
+}
+
+/*Styling for footer*/
+
+.footer-cont {
+  width:80%;
+}
+
+.full-flex {
+  flex:1;
+}
+
+.underline {
+  height:2px;
+  background-color:#d35266;
+  width: 90%;
+  margin-bottom: 10px;
+  opacity: .3;
+}
+
+.transparent {
+  width: 50%;
+  background: none;
+  border: 2px solid #d35266;
+  border-radius: 5px;
+}
+
+.footer-bottom {
+  width: 80%;
+  
+}
