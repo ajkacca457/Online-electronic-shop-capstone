@@ -308,7 +308,7 @@ body {
 }
 
 .bottom-btn {
-  width: 15%;
+  width: 50px;
   border: none;
   border-radius: 5px;
   box-shadow: 1px 1px black;
@@ -358,6 +358,7 @@ body {
    .category,.navi {
      font-size: 150%;
    }
+
 
  }
 
@@ -422,3 +423,26 @@ body {
 }
 
  }
+
+
+
+ /*styling for smaller devices*/
+
+  @media screen and (max-width:450px) {
+
+
+    .logo-heading {
+      font-size: 65%;
+      font-weight: bold;
+    }
+
+    .nav-link {
+      font-size: 65%;
+
+    }
+
+    .price,.detail {
+      font-size: 90%;
+    }
+
+  }
