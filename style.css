@@ -251,5 +251,39 @@ body {
 
 .footer-bottom {
   width: 80%;
-  
+}
+
+/*Styling for search page*/
+
+/*styling for Search section*/
+
+.search-cont {
+  width: 85%;
+}
+.option {
+  position: relative;
+}
+.form-1 {
+  position: sticky;
+  top:0;
+}
+
+.large-img {
+  width: 250px;
+  height: 250px;
+}
+
+.large-card {
+  border: 2px solid rgba(186, 186, 186, 0.3);
+  border-radius: 5px;
+}
+
+.filters-title {
+  font-size: 120%;
+}
+
+.search-all {
+  width: 90%;
+  border: none;
+  border-radius: 5px;
 }
