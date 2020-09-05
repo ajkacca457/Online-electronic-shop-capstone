@@ -105,7 +105,7 @@ body {
 
 .n-logo:hover {
   transform: rotate(0deg);
-  color: white;
+  color: #357197;
 }
 
 .nav-link {
@@ -259,14 +259,14 @@ body {
 
 .search-cont {
   width: 85%;
+  position: relative;
+
 }
 .option {
-  position: relative;
+  position:sticky;
+  
 }
-.form-1 {
-  position: sticky;
-  top:0;
-}
+
 
 .large-img {
   width: 250px;
@@ -286,4 +286,24 @@ body {
   width: 90%;
   border: none;
   border-radius: 5px;
+}
+.product-d {
+  font-size: 140%;
+}
+.product-d-head {
+  font-size: 150%;
+}
+.product-d-tag {
+  font-size: 110%;
+}
+
+.product-d-location {
+  font-size: 100%;
+}
+
+.bottom-btn {
+  width: 15%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px black;
 }
