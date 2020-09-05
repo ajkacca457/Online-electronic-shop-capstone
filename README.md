@@ -4,8 +4,8 @@ This project was created to follow the design style of ZATTIX by Mohammed Awad a
 
 <img src="images/product-1.PNG" alt="projectimg">
 <img src="images/product-2.PNG" alt="projectimg">
-<img src="images/product-3" alt="projectimg">
-<img src="images/product-4" alt="projectimg">
+<img src="images/product-3.PNG" alt="projectimg">
+<img src="images/product-4.PNG" alt="projectimg">
 
 </h1>Additional description about the project and its features.</h1>
 
