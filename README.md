@@ -21,10 +21,12 @@ This project was created to follow the design style of ZATTIX by Mohammed Awad a
 
 - Atom editor, Visual code
 
-<h2>Live Demo</h2>
+
+
 [Live demo](https://super-electronics.netlify.app)
 
-<h2>Video presentation link</h2>
+
+
 [Presentation Video](https://www.loom.com/share/3e2e6ea5ffcd4c74bb8165076ccfd4f5)
 
 
