@@ -1,0 +1,507 @@
+/* All re-used classes */
+body {
+  background-color: #888;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.catamaran {
+  font-family: 'Catamaran', sans-serif;
+}
+
+.eclipse-bg {
+  background-color: #383838;
+}
+
+.cabaret-bg {
+  background-color: #d35266;
+}
+
+.cabaret-color {
+  color: #d35266;
+}
+
+.defgrey,
+.defgrey-bg {
+  color: #888;
+}
+
+.opacity {
+  opacity: 0.9;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-1 {
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.align-2 {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.align-3 {
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.align-4 {
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* Specific element styling */
+
+/* Styling for navbar */
+
+.navcont {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav {
+  width: 85%;
+  margin: auto;
+}
+
+.logo-heading {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.post-add {
+  border: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+.user {
+  border: 2px white solid;
+  border-radius: 50%;
+}
+
+.n-logo {
+  transform: rotate(-30deg);
+  transition: all 0.3s ease;
+}
+
+.n-logo:hover {
+  transform: rotate(0deg);
+  color: #357197;
+}
+
+.nav-link {
+  transition: all 0.2s ease-in;
+}
+
+.nav-link:hover {
+  color: white;
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+/* Styling for display */
+
+.display {
+  background: linear-gradient(180deg, rgba(211, 82, 102, 1) 0%, rgba(199, 43, 67, 0.8995973389355743) 47%, rgba(211, 82, 102, 0.3617822128851541) 101%), url("images/big-display.jpg");
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.inputcont {
+  width: 80%;
+}
+
+.input-item {
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+  width: 25%;
+}
+
+.searchbtn {
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+}
+
+.searchbtn:hover {
+  text-decoration: none;
+}
+
+.d-head {
+  font-weight: bold;
+}
+
+.d-head,
+.d-body {
+  text-transform: capitalize;
+}
+
+/* Styling for hot ads */
+
+.sec-title h3 {
+  width: 80px;
+  font-size: 100%;
+}
+
+.d-img {
+  width: 300px;
+  height: 300px;
+}
+
+.width-70 {
+  width: 70%;
+  margin: auto;
+}
+
+.t-des {
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.price,
+.detail {
+  border: none;
+  height: 35px;
+}
+
+.price {
+  border-right: 2px solid rgba(69, 69, 69, 0.78);
+  border-radius: 5px 0 0 5px;
+}
+
+.detail {
+  border-radius: 0 5px 5px 0;
+}
+
+/* Styling for desktop-items */
+
+.desktop {
+  width: 100px;
+  height: 100px;
+}
+
+.desktop-sec {
+  border-bottom: 1px solid rgba(61, 61, 61, 0.15);
+}
+
+.desktop-cont {
+  width: 80%;
+}
+
+.desk-title {
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.similar-item {
+  flex: 1;
+  margin: 10px;
+  border: 1px solid rgba(61, 61, 61, 0.27);
+  border-radius: 5px;
+}
+
+.type {
+  font-size: 90%;
+}
+
+.item-price {
+  font-weight: bold;
+}
+
+.sec-head {
+  font-size: 120%;
+}
+
+.sec-body {
+  font-size: 100%;
+}
+
+/* Styling for footer */
+
+.footer-cont {
+  width: 80%;
+}
+
+.full-flex {
+  flex: 1;
+}
+
+.underline {
+  height: 2px;
+  background-color: #d35266;
+  width: 90%;
+  margin-bottom: 10px;
+  opacity: 0.3;
+}
+
+.foot-link:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+.transparent {
+  width: 50%;
+  background: none;
+  border: 2px solid #d35266;
+  border-radius: 5px;
+}
+
+.transparent:hover {
+  background-color: #d35266;
+  color: white;
+}
+
+.footer-bottom {
+  width: 80%;
+}
+
+/* Styling for search page */
+
+/* styling for Search section */
+
+.search-cont {
+  width: 85%;
+  position: relative;
+}
+
+.option {
+  position: sticky;
+}
+
+.large-img {
+  width: 250px;
+  height: 250px;
+}
+
+.large-card {
+  border: 2px solid rgba(186, 186, 186, 0.3);
+  border-radius: 5px;
+  background-color: white;
+}
+
+.large-card:hover {
+  background-color: hsla(140, 2%, 81%, 0.4);
+}
+
+.filters-title {
+  font-size: 120%;
+}
+
+.search-all {
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+}
+
+.product-d {
+  font-size: 140%;
+}
+
+.product-d-head {
+  font-size: 150%;
+}
+
+.product-d-tag {
+  font-size: 100%;
+}
+
+.product-d-location {
+  font-size: 100%;
+}
+
+.bottom-btn {
+  width: 50px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px black;
+}
+
+/* styling for medium devices */
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  /* Styling for Navigation */
+
+  .nav-link {
+    font-size: 90%;
+  }
+
+  .logo-heading {
+    font-size: 100%;
+    font-weight: bold;
+  }
+
+  .post-add {
+    display: none;
+  }
+
+  /* Styling for hot ads */
+
+  .d-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .text-title {
+    font-size: 150%;
+  }
+
+  .t-des {
+    font-size: 100%;
+    font-weight: bold;
+  }
+
+  .category,
+  .navi {
+    font-size: 150%;
+  }
+}
+
+/* styling for smaller devices */
+
+@media screen and (max-width: 767px) {
+  .logo-heading {
+    font-size: 100%;
+    font-weight: bold;
+  }
+
+  .user-items,
+  .post-add {
+    display: none;
+  }
+
+  .nav-link {
+    font-size: 90%;
+  }
+
+  .input-item {
+    width: 100%;
+  }
+
+  .d-head {
+    font-size: 150%;
+  }
+
+  .d-body {
+    font-size: 130%;
+  }
+
+  /* Styling for hot ads */
+  .img-carousel-1 {
+    text-align: center;
+  }
+
+  .d-img {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+  }
+
+  .text-title {
+    font-size: 130%;
+  }
+
+  .t-des {
+    font-size: 100%;
+    font-weight: bold;
+  }
+
+  .category,
+  .navi {
+    font-size: 120%;
+  }
+
+  .large-img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* styling for smaller devices */
+
+@media screen and (max-width: 450px) {
+  .logo-heading {
+    font-size: 65%;
+    font-weight: bold;
+  }
+
+  .nav-link {
+    font-size: 65%;
+  }
+
+  .price,
+  .detail {
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .logo-heading {
+    font-size: 50%;
+    font-weight: bold;
+  }
+
+  .display {
+    height: 80vh;
+  }
+
+  .display h3 {
+    font-size: 80%;
+  }
+
+  .d-img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+  }
+
+  .nav-link {
+    font-size: 50%;
+  }
+
+  .text-title {
+    font-size: 100%;
+  }
+
+  .text-body {
+    font-size: 80%;
+  }
+
+  .t-des {
+    font-size: 70%;
+  }
+
+  .sec-head {
+    font-size: 70%;
+  }
+
+  .sec-body {
+    font-size: 70%;
+  }
+
+  .price,
+  .detail {
+    font-size: 60%;
+  }
+
+  .pagination-sec {
+    display: none;
+  }
+}
