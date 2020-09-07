@@ -11,21 +11,23 @@ This project was created to follow the design style of ZATTIX by Mohammed Awad a
 
 <h2>Built With</h2>
 
-Html
+- Html
 
-CSS
+- CSS
 
-Bootstrap
+- Bootstrap
 
-A little bit Jquery
+- A little bit Jquery
 
-Atom editor, Visual code
+- Atom editor, Visual code
 
 <h2>Live Demo</h2>
-https://super-electronics.netlify.app
+[Live demo](https://super-electronics.netlify.app)
 
 <h2>Video presentation link</h2>
-https://www.loom.com/share/3e2e6ea5ffcd4c74bb8165076ccfd4f5
+[Presentation Video](https://www.loom.com/share/3e2e6ea5ffcd4c74bb8165076ccfd4f5)
+
+
 
 <h2>Getting Started</h2>
 To get a local copy up and running follow these simple example steps.
