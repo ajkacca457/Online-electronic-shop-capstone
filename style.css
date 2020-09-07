@@ -23,7 +23,8 @@ body {
   color: #d35266;
 }
 
-.defgrey,.defgrey-bg {
+.defgrey,
+.defgrey-bg {
   color: #888;
 }
 
@@ -56,7 +57,7 @@ body {
 .align-4 {
   align-items: flex-start;
   justify-content: center;
-  flex-direction:row;
+  flex-direction: row;
 }
 
 /* Specific element styling */
@@ -138,6 +139,10 @@ body {
   height: 35px;
   border: none;
   border-radius: 5px;
+}
+
+.searchbtn:hover {
+  text-decoration: none;
 }
 
 .d-head {
@@ -249,7 +254,7 @@ body {
 
 .foot-link:hover {
   text-decoration: none;
-  color:grey;
+  color: grey;
 }
 
 .transparent {
@@ -372,7 +377,6 @@ body {
 /* styling for smaller devices */
 
 @media screen and (max-width: 767px) {
-
   .logo-heading {
     font-size: 100%;
     font-weight: bold;
@@ -448,10 +452,9 @@ body {
   }
 }
 
-
 @media screen and (max-width: 360px) {
   .logo-heading {
-    font-size:50%;
+    font-size: 50%;
     font-weight: bold;
   }
 
@@ -468,6 +471,7 @@ body {
     height: 150px;
     margin-top: 10px;
   }
+
   .nav-link {
     font-size: 50%;
   }
@@ -475,27 +479,29 @@ body {
   .text-title {
     font-size: 100%;
   }
-.text-body {
-  font-size: 80%;
-}
-.t-des {
-  font-size: 70%;
-}
 
-.sec-head {
-  font-size: 70%;
-}
+  .text-body {
+    font-size: 80%;
+  }
 
-.sec-body {
-  font-size: 70%;
-}
+  .t-des {
+    font-size: 70%;
+  }
+
+  .sec-head {
+    font-size: 70%;
+  }
+
+  .sec-body {
+    font-size: 70%;
+  }
 
   .price,
   .detail {
     font-size: 60%;
   }
 
-.pagination-sec {
-  display: none;
-}
+  .pagination-sec {
+    display: none;
+  }
 }
