@@ -23,11 +23,7 @@ body {
   color: #d35266;
 }
 
-.defgrey {
-  color: #888;
-}
-
-.defgrey-bg {
+.defgrey,.defgrey-bg {
   color: #888;
 }
 
@@ -42,6 +38,7 @@ body {
 .align-1 {
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
 }
 
 .align-2 {
@@ -53,11 +50,13 @@ body {
 .align-3 {
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
 .align-4 {
   align-items: flex-start;
   justify-content: center;
+  flex-direction:row;
 }
 
 /* Specific element styling */
@@ -248,6 +247,11 @@ body {
   opacity: 0.3;
 }
 
+.foot-link:hover {
+  text-decoration: none;
+  color:grey;
+}
+
 .transparent {
   width: 50%;
   background: none;
@@ -330,13 +334,6 @@ body {
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   /* Styling for Navigation */
 
-  .navcont {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-  }
-
   .nav-link {
     font-size: 90%;
   }
@@ -375,12 +372,6 @@ body {
 /* styling for smaller devices */
 
 @media screen and (max-width: 767px) {
-  .navcont {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-  }
 
   .logo-heading {
     font-size: 100%;
@@ -409,14 +400,18 @@ body {
   }
 
   /* Styling for hot ads */
+  .img-carousel-1 {
+    text-align: center;
+  }
 
   .d-img {
     width: 200px;
     height: 200px;
+    margin-top: 10px;
   }
 
   .text-title {
-    font-size: 150%;
+    font-size: 130%;
   }
 
   .t-des {
@@ -451,4 +446,56 @@ body {
   .detail {
     font-size: 90%;
   }
+}
+
+
+@media screen and (max-width: 360px) {
+  .logo-heading {
+    font-size:50%;
+    font-weight: bold;
+  }
+
+  .display {
+    height: 80vh;
+  }
+
+  .display h3 {
+    font-size: 80%;
+  }
+
+  .d-img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+  }
+  .nav-link {
+    font-size: 50%;
+  }
+
+  .text-title {
+    font-size: 100%;
+  }
+.text-body {
+  font-size: 80%;
+}
+.t-des {
+  font-size: 70%;
+}
+
+.sec-head {
+  font-size: 70%;
+}
+
+.sec-body {
+  font-size: 70%;
+}
+
+  .price,
+  .detail {
+    font-size: 60%;
+  }
+
+.pagination-sec {
+  display: none;
+}
 }
