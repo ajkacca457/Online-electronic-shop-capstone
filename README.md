@@ -25,11 +25,6 @@ This project was created to follow the design style of ZATTIX by Mohammed Awad a
 
 [Live demo](https://super-electronics.netlify.app)
 
-<h2>Video Presentation:</h2>
-
-[Presentation Video](https://www.loom.com/share/3e2e6ea5ffcd4c74bb8165076ccfd4f5)
-
-
 
 <h2>Getting Started</h2>
 To get a local copy up and running follow these simple example steps.
